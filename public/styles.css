@@ -412,6 +412,11 @@ the website, in dark theme
   transform: translateX(.25rem);
 }
 
+.payment{
+  margin-left: 400px;
+
+}
+
 /*=============== ABOUT ===============*/
 
 .about_container{
@@ -517,8 +522,18 @@ the website, in dark theme
 }
 
 
-/*=============== PRODUCTS ===============*/
+/*=============== BOOKING ===============*/
 
+.action_page.php {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.payment{
+  position: relative;
+  margin-top: 20px;
+}
 
 
 /*Rotate icon, change color of titles and background*/

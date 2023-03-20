@@ -113,14 +113,14 @@ img{
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 
-body.dark-theme{
+body.dark-theme {
   --first-color-dark: hsl(var(--hue), 8%, 20%);
   --title-color: hsl(var(--hue), 4%, 95%);
   --text-color: hsl(var(--hue), 4%, 75%);
   --body-color: hsl(var(--hue), 8%, 12%);
   --container-color: hsl(var(--hue), 8%, 16%);
-
 }
+
 
 .change-theme {
   color: var(--title-color);
@@ -348,6 +348,7 @@ the website, in dark theme
 
 .ri-plane-line{
   color: var(--first-color);
+
 }
 
 .home_social-links{
@@ -643,6 +644,7 @@ the website, in dark theme
 }
 
 @media screen and (min-width: 1200px){
+  
   .home_social{
     right: -3rem;
     row-gap: 4.5rem;

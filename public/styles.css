@@ -523,24 +523,20 @@ the website, in dark theme
   margin-bottom: 10px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /*=============== BOOKING ===============*/
 
-.action_page.php {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.payment{
-  position: relative;
-  margin-top: 20px;
-}
 
 .pack_card p {
   font-size: var(--small-font-size);
-
 }
+
+
 
 /*=============== CONTACT ===============*/
 
@@ -725,8 +721,9 @@ footer h2{
 
 /* PICTURES */
 
-.container {
+.container2 {
   display: flex;
+  margin-left: 50px;
   width: 80vw;
 }
 
@@ -764,7 +761,7 @@ footer h2{
 }
 
 @media (max-width: 480px) {
-  .container { 
+  .container2 { 
       width: 100vw;
   }
   .panel:nth-of-type(4),

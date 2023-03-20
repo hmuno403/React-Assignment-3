@@ -27,6 +27,7 @@
     <div class="container">
 
         <div class="container" id='root'></div>
+
     </div>
 
     <!--==================== HEADER ====================-->
@@ -71,28 +72,40 @@
 
     </header>
 
-    <section>
-        <div class="pack_bg">
-            <h2> Lets finalize your booking!</h2>
 
-            <form class="pack_bg" action="/action_page.php">
-                <label for="packages">Choose your destination:</label>
-                <select id="PKG" name="packages">
-                    <option value="-">Select </option>
-                    <option value="Baku">Baku (CAD 1500) </option>
-                    <option value="Santiago">Santiago (CAD 2300)</option>
-                    <option value="Islamabad">Islamabad (CAD 1800)</option>
-                    <option value="Paris">Paris (CAD 2500)</option>
-                    <option value="Dubai">Paris (CAD 2300)</option>
-                    <option value="Cairo">Cairo (CAD 2000)</option>
-                </select>
-                <input type="submit">
-            </form>
-            <button type="button" class="btn btn-success" onclick="window.location.href = '04-02-payment.html';">Proceed
-                to
-                Payment</button>
-        </div>
-    </section>
+    <h2> Lets finalize your booking!</h2>
+
+
+
+    <div class="pack_bg">
+
+
+        <form class="form" action="/action_page.php">
+
+
+            <label for="packages">Choose your destination:</label>
+
+            <select id="PKG" name="packages">
+                <option value="-">Select </option>
+                <option value="Baku">Baku (CAD 1500) </option>
+                <option value="Santiago">Santiago (CAD 2300)</option>
+                <option value="Islamabad">Islamabad (CAD 1800)</option>
+                <option value="Paris">Paris (CAD 2500)</option>
+                <option value="Dubai">Paris (CAD 2300)</option>
+                <option value="Cairo">Cairo (CAD 2000)</option>
+            </select>
+
+            <input type="submit">
+
+
+        </form>
+
+
+    </div>
+
+    <button type="button" class="btn btn-success" onclick="window.location.href = '04-02-payment.html';">Proceed
+        to Payment</button>
+
 
 
 

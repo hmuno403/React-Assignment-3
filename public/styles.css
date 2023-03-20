@@ -496,20 +496,24 @@ the website, in dark theme
   border-radius: 1rem;
 }
 
-.par{
+.Par{
   width: 250px;
   justify-self: center;
   border-radius: 1rem;
 }
-.cai{
+.Cai{
   width: 250px;
   justify-self: center;
   border-radius: 1rem;
 }
-.dub{
+.Dub{
   width: 250px;
   justify-self: center;
   border-radius: 1rem;
+}
+.info{
+  color: #FFF;
+
 }
 
 

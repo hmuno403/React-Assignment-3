@@ -460,13 +460,14 @@ the website, in dark theme
 
 .pack_title{
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .pack_bg {
-  background-color:#25382d;
+  background-color:hsl(var(--hue), 8%, 16%);
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
+  margin-top: 100px;
 }
 
 .pack_container{
@@ -557,6 +558,7 @@ footer{
   font-size: var(--small-font-size);
   background-color: var(--first-color);  
   color: #FFF;
+  margin-top: 50px;
 }
 
 footer h2{
@@ -713,6 +715,72 @@ footer h2{
 
 }
 
+.textsantiago{
+  background-color: #FFF;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+/* PICTURES */
+
+.container {
+  display: flex;
+  width: 80vw;
+}
+
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container { 
+      width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+      display: none;}
+
+}
+
+.overview h2 {
+  margin-bottom: 40px;
+
+}
+
+.overview p {
+  margin-bottom: 40px;
+}
   
 
   

@@ -496,6 +496,21 @@ the website, in dark theme
   border-radius: 1rem;
 }
 
+.par{
+  width: 250px;
+  justify-self: center;
+  border-radius: 1rem;
+}
+.cai{
+  width: 250px;
+  justify-self: center;
+  border-radius: 1rem;
+}
+.dub{
+  width: 250px;
+  justify-self: center;
+  border-radius: 1rem;
+}
 
 
 /*=============== PRODUCTS ===============*/

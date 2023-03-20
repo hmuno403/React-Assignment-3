@@ -300,7 +300,7 @@ the website, in dark theme
 
 .home_container{
   position: relative;
-  row-gap: 3rem;
+  row-gap: 2rem;
 }
 
 .home_img{
@@ -460,7 +460,7 @@ the website, in dark theme
 }
 
 .pack_container{
-  gap: 3rem;
+  gap: 2rem;
   padding-top: 1rem;
 }
 
@@ -491,21 +491,7 @@ the website, in dark theme
   border-radius: 1rem;
 }
 
-.col{
-  width: 250px;
-  justify-self: center;
-  border-radius: 1rem;
-}
-.isl{
-  width: 250px;
-  justify-self: center;
-  border-radius: 1rem;
-}
-.isl{
-  width: 250px;
-  justify-self: center;
-  border-radius: 1rem;
-}
+
 
 /*=============== PRODUCTS ===============*/
 
@@ -605,10 +591,6 @@ the website, in dark theme
     top: 30%;
   }
 }
-.myButton{
-  margin-top: 20px;
-  background-color: green;
-}
   
 /* For large devices */
 
@@ -676,7 +658,6 @@ the website, in dark theme
   }
 
 }
-
 
   
 

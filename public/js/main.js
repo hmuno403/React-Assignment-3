@@ -42,67 +42,6 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-//  Code from Marry Below
-const HomePage = () => {
-    const [packageData, setPackages] = useState([
-      {
-        id: 1,
-        title: "Package 1",
-        description: "Description for package 1",
-        image: "https://picsum.photos/300/200",
-        price: 1200,
-        duration: "3 days",
-      },
-      {
-        id: 2,
-        title: "Package 2",
-        description: "Description for package 2",
-        image: "https://picsum.photos/300/200",
-        price: 1400,
-        duration: "5 days",
-      },
-      {
-        id: 3,
-        title: "Package 3",
-        description: "Description for package 3",
-        image: "https://picsum.photos/300/200",
-        price: 300,
-        duration: "7 days",
-      },
-    ]);
-  
-    const handleSelectPackage = (id) => {
-      // Code to handle selecting a package
-    };
-  
-    return (
-      <Container>
-        <h1 className="text-center my-4">Available Packages</h1>
-        <Row>
-          {packages.map((pkg) => (
-            <Col key={pkg.id} sm={12} md={6} lg={4}>
-              <Card className="my-3 p-3 rounded">
-                <Card.Img src={pkg.image} variant="top" />
-                <Card.Body>
-                  <Card.Title>{pkg.title}</Card.Title>
-                  <Card.Text>{pkg.description}</Card.Text>
-                  <Card.Text>
-                    Price: {pkg.price}, Duration: {pkg.duration}
-                  </Card.Text>
-                  <Button onClick={() => handleSelectPackage(pkg.id)}>
-                    Select Package
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    );
-  };
-  
-  
-
 /*=============== QUESTIONS ACCORDION ===============*/
 
 

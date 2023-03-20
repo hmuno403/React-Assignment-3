@@ -460,11 +460,11 @@ the website, in dark theme
 
 .pack_title{
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .pack_bg {
-  background-color: var(--first-color);  
+  background-color:#25382d;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -481,44 +481,45 @@ the website, in dark theme
 .pack_card-tittle{
   font-size: var(--h3-font-size);
   color: #FFF;
+  margin-bottom: 10px;
 }
 
 .azer{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 
 .sant{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 
 .isl{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 
 .Par{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 .Cai{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 .Dub{
-  width: 250px;
+  width: 280px;
   justify-self: center;
   border-radius: 1rem;
 }
 .info{
   color: #FFF;
-
+  margin-bottom: 10px;
 }
 
 
@@ -535,9 +536,10 @@ the website, in dark theme
   margin-top: 20px;
 }
 
+.pack_card p {
+  font-size: var(--small-font-size);
 
-/*Rotate icon, change color of titles and background*/
-
+}
 
 /*=============== CONTACT ===============*/
 
@@ -549,6 +551,18 @@ the website, in dark theme
 
 
 /*=============== FOOTER ===============*/
+
+footer{
+  text-align: center;
+  font-size: var(--small-font-size);
+  background-color: var(--first-color);  
+  color: #FFF;
+}
+
+footer h2{
+  color: #FFF;
+
+}
 
 
 /*=============== SCROLL UP ===============*/

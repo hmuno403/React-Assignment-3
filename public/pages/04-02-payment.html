@@ -75,28 +75,29 @@
     </header>
 
     <section>
-        <div class="pack_bg">
+        <div class="main">
 
-            <h2 section_title about_title> Lets finalize your Payment!</h2>
 
             <div class="container">
+                <h2> Lets finalize your Payment!</h2>
 
                 <div class="container" id='root'></div>
+
+                <form class="pack_bg form" action="/action_page.php">
+
+                    <label for="Payment">Choose your Payment method:</label>
+                    <select id="PKG" name="packages">
+                        <option value="-">Select </option>
+                        <option value="Visa">Visa </option>
+                        <option value="Master Card">Master Card</option>
+                        <option value="Amex">American Express</option>
+                        <option value="Paypal">Paypal</option>
+                        <option value="Interac">Interac</option>
+                    </select>
+
+                </form>
             </div>
 
-            <form class="pack_bg form" action="/action_page.php">
-
-                <label for="Payment">Choose your Payment method:</label>
-                <select id="PKG" name="packages">
-                    <option value="-">Select </option>
-                    <option value="Visa">Visa </option>
-                    <option value="Master Card">Master Card</option>
-                    <option value="Amex">American Express</option>
-                    <option value="Paypal">Paypal</option>
-                    <option value="Interac">Interac</option>
-                </select>
-
-            </form>
         </div>
     </section>
 
